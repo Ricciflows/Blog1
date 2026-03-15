@@ -27,8 +27,6 @@ export function SiteMeta({ title, description, image, children }: SiteMetaProps)
                 <meta property="og:title" content={pageTitle} />
                 <meta property="og:description" content={pageDescription} />
                 {pageImage && <meta property="og:image" content={pageImage} />}
-                // @ts-nocheck
-                <script>(function(s){s.dataset.zone='10735949',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
             </Helmet>
             {children}
         </>
